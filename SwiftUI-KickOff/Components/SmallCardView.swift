@@ -1,5 +1,5 @@
 //
-//  CardView.swift
+//  SmallCardView.swift
 //  SwiftUI-KickOff
 //
 //  Created by Thuta sann on 11/29/22.
@@ -7,33 +7,26 @@
 
 import SwiftUI
 
-// MARK: - Single Card
-struct CardView: View {
-    
-    // Dynamic Data From Data.swift
+struct SmallCardView: View {
+        
     var item: Item = items[2]
     
-    
-    // Card Component
     var body: some View {
         VStack(alignment: .leading, spacing: 16.5) {
             Image(item.image)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .frame(height: 210)
+                .frame(height: 70)
             Text(item.title)
-                .font(.title)
+                .font(.headline)
                 .fontWeight(.bold)
-            Text(item.text)
-                .opacity(0.9)
-                .multilineTextAlignment(.leading)
             Text("Thuta Sann")
                 .opacity(0.9)
         }
         .foregroundColor(.white)
         .padding(.all)
         .padding(10)
-        .frame(width: 400, height: 450)
+        .frame(width: 190 , height: 190)
         .background(
             LinearGradient(gradient: Gradient(colors: [.purple, .red, .blue]), startPoint: .bottom, endPoint: .top)
         )
@@ -41,8 +34,8 @@ struct CardView: View {
     }
 }
 
-struct CardView_Previews: PreviewProvider {
+struct SmallCardView_Previews: PreviewProvider {
     static var previews: some View {
-        CardView()
+        SmallCardView()
     }
 }
