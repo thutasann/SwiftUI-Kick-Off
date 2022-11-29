@@ -17,10 +17,10 @@ struct ContentView: View {
                     Image(systemName: "house.fill")
                     Text("Home")
                 }
-            DetailView()
+            ListView()
                 .tabItem {
                     Image(systemName: "eyes.inverse")
-                    Text("Detail")
+                    Text("Courses")
                 }
         }
     }

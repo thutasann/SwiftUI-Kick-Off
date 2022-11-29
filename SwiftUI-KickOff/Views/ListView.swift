@@ -16,7 +16,7 @@ struct ListView: View {
             List {
                 ForEach(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
                     ListItem()
-                        .sheet(isPresented: $show, content: {
+                        .sheet(isPresented: $show, content: { // or fullScreenCover
                             DetailView()
                         })
                         .onTapGesture {
