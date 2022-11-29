@@ -16,12 +16,14 @@ struct ContentView: View {
                  ScrollView(.horizontal, showsIndicators: false){
                     HStack (spacing: 16) {
                         ForEach(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
-                            CardView()
+                            NavigationLink(destination: DetailView()) {
+                                CardView()
+                            }
                         }
                     }
                     .padding()
                 }
-                .navigationTitle("SwiftUI Kick-Off")
+                .navigationTitle("SwiftUI Kick-Off") // Title From the Header
              }
         }
     }
@@ -42,7 +44,7 @@ struct CardView: View {
                 .fontWeight(.bold)
             Text("A complete guide to SwiftUI this is my first time digging into SwiftUI")
                 .opacity(0.9)
-                .lineLimit(2)
+                .multilineTextAlignment(.leading)
             Text("Thuta Sann")
                 .opacity(0.9)
         }
