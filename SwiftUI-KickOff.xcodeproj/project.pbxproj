@@ -14,6 +14,8 @@
 		6B4800DF29362039004B013F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4800DE29362039004B013F /* DetailView.swift */; };
 		6B4800E1293629CB004B013F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4800E0293629CB004B013F /* CardView.swift */; };
 		6B4800E32936331E004B013F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4800E22936331E004B013F /* HomeView.swift */; };
+		6B4800E529363C99004B013F /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4800E429363C99004B013F /* ListView.swift */; };
+		6B4800E7293654CE004B013F /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4800E6293654CE004B013F /* ListItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		6B4800DE29362039004B013F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		6B4800E0293629CB004B013F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		6B4800E22936331E004B013F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6B4800E429363C99004B013F /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		6B4800E6293654CE004B013F /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 			children = (
 				6B4800CE2935F137004B013F /* SwiftUI_KickOffApp.swift */,
 				6B4800D02935F137004B013F /* ContentView.swift */,
+				6B4800E429363C99004B013F /* ListView.swift */,
+				6B4800E6293654CE004B013F /* ListItem.swift */,
 				6B4800E22936331E004B013F /* HomeView.swift */,
 				6B4800DE29362039004B013F /* DetailView.swift */,
 				6B4800E0293629CB004B013F /* CardView.swift */,
@@ -147,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B4800D12935F137004B013F /* ContentView.swift in Sources */,
+				6B4800E7293654CE004B013F /* ListItem.swift in Sources */,
 				6B4800DF29362039004B013F /* DetailView.swift in Sources */,
+				6B4800E529363C99004B013F /* ListView.swift in Sources */,
 				6B4800E1293629CB004B013F /* CardView.swift in Sources */,
 				6B4800E32936331E004B013F /* HomeView.swift in Sources */,
 				6B4800CF2935F137004B013F /* SwiftUI_KickOffApp.swift in Sources */,
